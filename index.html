@@ -15,15 +15,15 @@
             <h2>Encontre o veículo certo para você!</h2>
             <p class="subtituloLogin">Preencha as informações abaixo</p>
             <form>
-                <label class="Indicadores">Nome</label><br>
-                <input type="text" placeholder="Usuário" name="usuario" required><br>
-                <label class="Indicadores">Email</label><br>
-                <input type="text" placeholder="Email" name="Email" required><br>
-                <b>Selecione o tipo de Veículo</b><br><br>
-                <select>
-                    <option>Básico</option>
-                    <option>Familia</option>
-                    <option>Luxo</option>
+                <label class="Indicadores">Nome</label>
+                <input type="text" placeholder="Usuário" name="usuario" required>
+                <label class="Indicadores">Email</label>
+                <input type="text" placeholder="Email" name="Email" required>
+                <b>Selecione o tipo de Veículo</b>
+                <select id="vehicleSelect">
+                    <option value="basico">Básico</option>
+                    <option value="familia">Familia</option>
+                    <option value="luxo">Luxo</option>
                 </select>
                 <br>
                 <button type="submit" class="btn-login">FAZER MINHA RESERVA</button>
@@ -37,11 +37,11 @@
         <div class="Background">
             <h1 class="tituloCarro">VOCÊ PODE ALUGAR ESSE VEÍCULO<br> POR R$ <em>99</em> / DIA</h1>
             <p class="subtituloCarro">Válido para todo território nacional</p>
-            <img src="Imagem/renault-kwid.png" alt="Renalt Kwid" 
+            <!-- Adicionei o id "carImage" para a imagem do carro -->
+            <img id="carImage" src="Imagem/renault-kwid.png" alt="Renalt Kwid">
         </div>
 
         <script src="script.js"></script>
-
     </main>
 </body>
 
