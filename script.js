@@ -11,11 +11,11 @@ document.getElementById("vehicleSelect").addEventListener("change", function() {
     setTimeout(function() {
         // Trocar a imagem com base na seleção
         if (vehicle === "basico") {
-            carImage.src = "Imagem/renault-kwid.png";  // Caminho para a imagem do carro básico
+            carImage.src = "Imagem/basico.png";  // Caminho para a imagem do carro básico
         } else if (vehicle === "familia") {
-            carImage.src = "Imagem/marquinhos.com.png";  // Caminho para a imagem do carro de família
+            carImage.src = "Imagem/familia.png";  // Caminho para a imagem do carro de família
         } else if (vehicle === "luxo") {
-            carImage.src = "Imagem/mate.png";  // Caminho para a imagem do carro de luxo
+            carImage.src = "Imagem/luxo.png";  // Caminho para a imagem do carro de luxo
         }
 
         // Agora, adicionar novamente a animação
